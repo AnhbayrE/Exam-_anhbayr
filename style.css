@@ -1,0 +1,118 @@
+body {
+    background-color: black ; 
+   
+}
+
+
+h1,h2, h3,p,a {
+    margin: 0;
+}
+
+.header-section {
+
+    height: 1080px;
+}
+.container {
+    width: 1728px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.z-flip {
+    position: absolute;
+    display: block;
+   
+}
+
+
+.samsung {
+    margin-right: 554px ;
+    margin-left: 30px;
+    margin-top: 44px;
+}
+
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+
+.header-menu {
+    margin-top: 44px;
+    margin-right:30px ;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header-h1 {
+    position: relative;
+    font-size: 70px;
+    margin-top: 398px;
+    margin-left: 157px;
+    
+}
+
+.right-menu-logo {
+    margin-top: 30px;
+ 
+}
+
+.phone-images {
+    display: flex;
+    gap: 525px;
+
+}
+
+.images-section {
+    
+   margin: 0 auto;
+}
+
+
+ .left-phone-image{
+    position: absolute;
+    flex: 1;
+ }
+
+
+.right-phone-image {
+    position: absolute;
+    flex: 1;
+}
+
+
+.image-text-left {
+    width: 298px;
+    height: 72;
+    font-size: 30px;
+    position: relative;
+    color: #fff;
+    margin-top: 34px;
+    margin-left: 42px;
+    font-weight: 600;
+}
+
+.image-text {
+    width: 309px;
+    height: 72px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 34px;
+    position: relative;
+    color: #fff;
+    right: 0;
+} 
+
+.box1 {
+    /* flex-grow: 1; */
+    /* gap: 1000px; */
+}
+
+.box2 {
+    /* flex-grow: 1; */
+}
